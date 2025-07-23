@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.social-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp { background-color: #25D366; }
+.call     { background-color: #34B7F1; }
+.email    { background-color: #e74c3c; }
+.up       { background-color: #00bcd4; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#kerala {
+    background-size: cover;
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-right: 25px;
+    text-decoration-style: none; 
+     text-decoration: none;
+     list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#bt {
+padding: 10px;
+border-radius: 4px;
+font-weight: bold;
+margin-bottom: 25px;
+
+} 
+
+#logo {
+    width: 100px;
+}
+
+#videotxt {
+ font-size: 45px;
+ font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+a{
+
+    color: black;
+
+
+}
+ 
+.videofont {
+    font-size: 20px;
+}
+.button2 {
+     background: transparent;
+    width: 115px;
+    height: 40px;
+    font-size:15px;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+#travel{
+    width:90%;
+    height: 50%;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+}
+
+
+
+#emoji{
+    margin-top: 500px;
+}
+
+
+#smiley{
+    width: 75px;
+}
+
+#map{
+    width: 60px;
+}
+
+#location{
+    width: 60px;
+}
+
+#gift{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+#threeicon{
+    background-color:rgb(255, 251, 251) ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+     height: 500px;
+    
+
+}
+#icn1{
+    padding-right: 215px;
+}
+
+#icn2 {
+    padding-right: 200px;
+}
+#icn3{
+    padding-right: 110px;
+}
+
+
+
+
+
+
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px;
+      gap: 20px;
+      scroll-behavior:smooth;
+    }
+
+    .card {
+      width: 500px;
+      
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      flex-shrink: 0;
+    }
+
+    .card img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+      
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: darkred;
+    }
